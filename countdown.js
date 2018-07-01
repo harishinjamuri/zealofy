@@ -38,6 +38,6 @@
         var timeinterval = setInterval(updateClock, 1000);
       }
 
-      var deadline = new Date('July 18, 2018 00:00:00' + 15 * 24 * 60 * 60 * 1000);
+      var deadline = new Date('July 15, 2018 00:00:00' + 15 * 24 * 60 * 60 * 1000);
       initializeClock('clockdiv', deadline);
   </script>
