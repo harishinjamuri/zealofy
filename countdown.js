@@ -1,4 +1,4 @@
- <script>
+
       function getTimeRemaining(endtime) {
         var t = Date.parse(endtime) - Date.parse(new Date());
         var seconds = Math.floor((t / 1000) % 60);
@@ -40,4 +40,3 @@
 
       var deadline = new Date('July 15, 2018 00:00:00' + 15 * 24 * 60 * 60 * 1000);
       initializeClock('clockdiv', deadline);
-  </script>
