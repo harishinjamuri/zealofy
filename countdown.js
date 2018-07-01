@@ -39,5 +39,5 @@
       }
 
       var deadline = new Date('July 15, 2018 00:00:00' + 15 * 24 * 60 * 60 * 1000);
-      initializeClock('index.html#clockdiv', deadline);
+      initializeClock('clockdiv', deadline);
   </script>
